@@ -1,0 +1,15 @@
+.btn-success:hover{
+    background-color:darkgreen;
+}
+
+canvas{
+    animation-name:bg_effect;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg_effect {
+    
+    from{box-shadow: 1px 1px 65px #000000;}
+    to{box-shadow: 1px 1px 65px#ffffff;}
+}
+   
